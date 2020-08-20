@@ -69,21 +69,23 @@ p, span, a, div {
 }
 
 .nav-view-wrapper {
+  display: flex;
+  flex-direction: row;
   width: 100vw;
-  height: 8rem;
   background-color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
 .nav-view-contentWrapper {
+  display: flex;
+  flex-direction: row;
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
   background: rgba(34, 32, 32, 0.5);
 }
 
@@ -94,8 +96,6 @@ p, span, a, div {
 }
 
 .nav-links {
-  display: flex;
-  flex-direction: row;
   -webkit-box-pack: justify;
   justify-content: space-between;
   width: 100%;
@@ -106,7 +106,6 @@ p, span, a, div {
 
 .nav-link-items {
   display: flex;
-  flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
@@ -117,6 +116,35 @@ p, span, a, div {
   overflow: hidden;
   padding: 1em;
 }
+
+.subscribe-button {
+  display: flex;
+  margin: 10px 10px 10px auto;
+  height: 1.75em;
+  width: 5.25em;
+  /* break */
+	background-color: #0f4c75;
+	border-radius:28px;
+	border:1px solid #3282b8;
+	/* display:inline-block; */
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	/* padding:12px 25px; */
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.subscribe-button:hover {
+	background-color:#3282b8;
+}
+.subscribe-button:active {
+	position:relative;
+	top:1px;
+}
+
+
 
 /* ----------------------------------- */
 /* Intro Component */

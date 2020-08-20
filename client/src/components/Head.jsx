@@ -16,6 +16,7 @@ const Head = () => {
               </ul>
             </nav>
           </div>
+          <button className="subscribe-button">Subscribe</button>
         </div>
       </div>
     </div>
