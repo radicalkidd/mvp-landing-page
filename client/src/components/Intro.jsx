@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Intro extends Component {
   render() {
     return (
-     <div className="intro-container">
+     <div className="intro-container" id="landing">
       <h1 className="intro-title">SZN.IO</h1>
       <div className="intro-content">
         {/* <p>Stay updated with our lightning speed monitors. Never miss another hype release with our dedicated servers made to help you cook</p> */}
