@@ -8,7 +8,7 @@ class Footer extends Component {
       <footer className="footer-container">
         <div className="footer-content"><span><strong>SZN.IO™️ | All Rights Reserved ©️ 2020</strong></span></div>
         <div className="footer-social">
-          <a hre="https://www.twitter.com"><img src={twitterLogo} alt="#"/></a>
+          <a href="https://www.twitter.com"><img src={twitterLogo} alt=""/></a>
           <h1>|</h1>
           <a href="https://www.instagram.com"><img src={igLogo} alt=""/></a>
         </div>

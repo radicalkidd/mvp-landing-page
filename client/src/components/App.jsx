@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Head from './Head.jsx';
 import Intro from './Intro.jsx';
 import Features from './Features.jsx';
+import Subscribe from './Subscribe.jsx';
 import Footer from './Footer.jsx';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <Head />
         <Intro />
         <Features />
+        <Subscribe />
         <Footer />
       </div>
     );
