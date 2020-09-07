@@ -204,12 +204,19 @@ p, span, a, div {
   width: 250px;
   height: 250px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   font-size: 2rem;
   /* width: 220px;
   background: rgb(0,0,0); */
   /* background: linear-gradient(30deg, rgba(0,0,0,1) 15%, rgba(102,157,189,1) 75%); */
+}
+
+.f1:hover {
+  /* display: none; */
+  position: relative;
+  transform: scale(1.1);
+  border: 5px solid red;
 }
 
 .box-1{
