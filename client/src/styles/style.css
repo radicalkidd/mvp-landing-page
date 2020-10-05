@@ -49,6 +49,11 @@ img {
 p, span, a, div {
   user-select: none;
   -webkit-user-drag: none;
+  overflow-wrap: break-word;
+}
+
+p{
+  font-size: 25px;
 }
 
 .app-container {
@@ -202,21 +207,17 @@ p, span, a, div {
 
 .f1 {
   width: 250px;
-  height: 250px;
+  height: 260px;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   font-size: 2rem;
-  /* width: 220px;
-  background: rgb(0,0,0); */
-  /* background: linear-gradient(30deg, rgba(0,0,0,1) 15%, rgba(102,157,189,1) 75%); */
 }
 
 .f1:hover {
   /* display: none; */
   position: relative;
-  transform: scale(1.1);
-  border: 5px solid red;
+  transform: scale(1.05);
+  border: 2px solid;
 }
 
 .box-1{
@@ -227,17 +228,25 @@ p, span, a, div {
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
-  border: 0px solid #000000;
+  border: 2px solid #000000;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .f2 {
   background: aqua;
-  height: 250px;
+  height: 260px;
   width: 250px;
   display: flex;
-  align-items: center;
   justify-content: center;
   font-size: 2rem;
+}
+
+.f2:hover {
+  /* display: none; */
+  position: relative;
+  transform: scale(1.05);
+  border: 2px solid;
 }
 
 .box-2{
@@ -245,17 +254,25 @@ p, span, a, div {
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
-  border: 0px solid #000000;
+  border: 2px solid #000000;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .f3 {
   background: brown;
-  height: 250px;
+  height: 260px;
   width: 250px;
   display: flex;
-  align-items: center;
   justify-content: center;
   font-size: 2rem;
+}
+
+.f3:hover {
+  /* display: none; */
+  position: relative;
+  transform: scale(1.05);
+  border: 2px solid;
 }
 
 .box-3{
@@ -263,7 +280,9 @@ p, span, a, div {
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
-  border: 0px solid #000000;
+  border: 2px solid #000000;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* .features-list {
@@ -314,6 +333,7 @@ p, span, a, div {
   justify-content: center;
   padding: 2em 2em 2em 2em;
   position: inherit;
+  overflow: hidden;
 }
 
 .footer-content {
