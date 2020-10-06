@@ -24,16 +24,14 @@ class Subscribe extends Component {
     return (
       <div className="subscribe-container" id="subscribe">
         <h1>Subscribe for Updates</h1>
-        <form onSubmit={this.handleSubmit}>
+        <form className="form-container" onSubmit={this.handleSubmit}>
           <label>
-            <h2>Name: </h2>
-            <input name="fullName" type="text" onChange={this.handleChange} placeholder="Vu Huynh"/>
+            <input className="name-input" name="fullName" type="text" onChange={this.handleChange} placeholder="Full Name"/>
           </label>
           <label>
-            <h2>Email: </h2>
-            <input name="email" type="text" onChange={this.handleChange} placeholder="vu.huynh@gmail.com"/>
+            <input className="email-input" name="email" type="text" onChange={this.handleChange} placeholder="Email"/>
           </label>
-            <button>Submit</button>
+            <button className="s-button">Submit</button>
         </form>
       </div>
     )
